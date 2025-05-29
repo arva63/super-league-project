@@ -15,7 +15,7 @@ struct Team {
     int goals_for;
     int goals_against;
     int points;
-    int strength;
+    double strength;
 };
 //Function that calculates how many goals a team will score based on offensive and defensive strength
 int generateGoals(int attackStrength, int defenseStrength) {
